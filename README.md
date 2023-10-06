@@ -38,8 +38,9 @@
 > 3. open system envirement variable, paste the path in local variable path and save it
 > 4. open a command promt and pass the command $ **eksctl version**
 > 5. create a file [cluster.yaml](https://github.com/Sudhirreddy07/Devops_project/blob/main/kubernetes/cluster.yaml)
-> 6. Run the command to create a cluster in aws eks
-> _eksctl create cluster -f cluster.yaml_
+> 6. Run the command to create a cluster in aws eks $ eksctl create cluster -f cluster.yaml
+> 7. deletion of cluster $ eksctl delete cluster --name=<name> [--region=<region>]
+
 
 
 
