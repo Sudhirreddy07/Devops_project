@@ -41,7 +41,9 @@
 > 6. Run the command to create a cluster in aws eks $ eksctl create cluster -f cluster.yaml
 > 7. deletion of cluster $ eksctl delete cluster --name=<name> [--region=<region>]
 
-
+## Deployment of Mangodb in EKS Cluster
+> 1. Creation of Mangobd in kubernetes cluster, follow the steps
+> 2. 
 
 
 
