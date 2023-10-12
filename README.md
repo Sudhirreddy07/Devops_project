@@ -41,9 +41,27 @@
 > 6. Run the command to create a cluster in aws eks $ eksctl create cluster -f cluster.yaml
 > 7. deletion of cluster $ eksctl delete cluster --name=<name> [--region=<region>]
 
-## Deployment of Mangodb in EKS Cluster
-> 1. Creation of Mangobd in kubernetes cluster, follow the steps
-> 2. 
+##Installion of Minikube localy
+>   1. Download the minikube exc file [Download Here](https://storage.googleapis.com/minikube/releases/latest/minikube-installer.exe)
+>   2. Run the exc file, After installation start docker
+>   3. Start your cluster
+>      ```
+>      minikube start
+>      ```
+>  4. Interact with your cluster
+>     You can also make your life easier by adding the following to your shell config:
+>      ```
+>      doskey kubectl=minikube kubectl --
+>      ```
+>      If you already have kubectl installed, you can now use it to access your shiny new cluster:
+>     ```
+>     kubectl get po -A
+>     ```
+
+## Deployment of Mangodb in Kubernetes
+> 1.
+> 2.  Creation of Mangobd in kubernetes cluster, follow the steps
+> 3. 
 
 
 
